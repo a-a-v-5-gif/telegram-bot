@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-host-bot
+    env: php
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:10000 Hosting_bot.php
+    plan: free
